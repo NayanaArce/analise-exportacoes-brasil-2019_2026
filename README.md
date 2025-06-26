@@ -65,6 +65,6 @@ Para dúvidas ou sugestões, entre em contato pelo e-mail: [nayanathaumaturgo@ho
 
 
 
-> Projeto realizado como parte da formação em Análise de Dados da Escola Britânica de Artes Visuais e Suas Tecnologias (EBAC).  
+> Projeto realizado como parte da formação em Análise de Dados da Escola Britânica de Artes Criativas e Tecnologia (EBAC).  
 > Todos os dados utilizados são públicos e foram obtidos de fontes oficiais.
 
