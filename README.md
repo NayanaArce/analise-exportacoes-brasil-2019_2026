@@ -44,7 +44,7 @@ A pasta `Documentacao/` contém os seguintes arquivos:
 - `Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026.pdf` — Texto completo do projeto
 - `Relatório de Insights — Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026.pdf` — Análise interpretativa dos principais achados e recomendações
 - `Relatório de Fontes de Dados Públicos e Não Confidenciais.pdf` — Informações sobre origem, estrutura e qualidade dos dados
-- `4_documentacao_tecnica.md` — Detalhes técnicos do código e execução (opcional)
+- `documentacao_tecnica.md` — Detalhes técnicos do código e execução
 
 
 
