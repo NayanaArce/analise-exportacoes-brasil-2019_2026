@@ -1,0 +1,64 @@
+# 🧠 Análise Exploratória e Previsão das Exportações Brasileiras (2019–2026)
+
+Este diretório contém o código Python utilizado para realizar a análise exploratória de dados (EDA) e a modelagem preditiva das exportações brasileiras, com geração de previsões para o ano de 2026.
+
+
+
+## 📜 Arquivo principal
+
+- `projeto_analise_exploratoria_de_dados_com_machine_learning_analise_de_exportacao_com_previsoes_para_2026.ipynb`
+
+Este script executa todas as etapas do projeto, desde a leitura e limpeza dos dados até a geração de previsões e exportação de arquivos para visualização no Looker Studio.
+
+
+
+## 🔧 Requisitos
+
+Certifique-se de ter as seguintes bibliotecas instaladas:
+
+```bash
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+Você pode instalar tudo com:
+
+bash
+Copiar
+Editar
+pip install pandas numpy scikit-learn matplotlib seaborn
+
+▶️ Como executar
+Certifique-se de que os arquivos CSV estejam na pasta Dados/ no diretório raiz.
+
+Execute o script em um ambiente Python 3.10+ (Google Colab ou Jupyter Notebook recomendados).
+
+Ao final da execução, os seguintes arquivos serão gerados automaticamente na pasta Dados/:
+
+comparacao_2024_2026.csv
+
+evolucao_temporal_completa.csv
+
+crescimento_paises_2026.csv
+
+dados_historicos_looker.csv
+
+Esses arquivos são utilizados para alimentar os dashboards do Looker Studio.
+
+🧪 Modelos de Machine Learning testados
+Random Forest Regressor
+
+Gradient Boosting Regressor
+
+Linear Regression
+
+Decision Tree Regressor
+
+O modelo com melhor desempenho foi o Decision Tree, com R² ≈ 0.9753.
+
+📦 Resultado final
+As previsões para 2026 e os principais insights do projeto estão disponíveis no dashboard interativo no Looker Studio.
+
+👤 Autor
+Este script foi desenvolvido por [Nayana Arce] como parte da formação em Análise de Dados da Escola Britânica de Artes Criativas e Tecnologia
