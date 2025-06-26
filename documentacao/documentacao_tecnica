@@ -1,0 +1,98 @@
+# 🧪 Documentação Técnica — Projeto - Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026 
+
+Este documento técnico descreve a estrutura, o funcionamento e as decisões metodológicas do projeto de Análise Exploratória de Dados com aplicação de Machine Learning, desenvolvido no contexto da parceria educacional com a Semantix.
+
+
+
+## 🔧 1. Estrutura do Código
+
+O código principal está localizado na pasta `Analise_Exploratoria_de_Dados/` e realiza as seguintes etapas:
+
+### ✅ Etapas executadas:
+
+1. **Importação de bibliotecas e leitura dos dados**
+2. **Limpeza e pré-processamento**
+   - Remoção de nulos e duplicatas
+   - Padronização de colunas e tipos de dados
+3. **Análise exploratória (EDA)**
+   - Estatísticas descritivas
+   - Evolução temporal
+   - Top países e produtos
+   - Análise de variabilidade e correlação
+4. **Preparação para Machine Learning**
+   - Engenharia de features: valor por kg, lags e crescimento percentual
+   - Encoding de variáveis categóricas
+5. **Treinamento e avaliação de modelos**
+   - Modelos testados: Random Forest, Regressão Linear, Decision Tree, Gradient Boosting
+   - Métricas: R² e MAE
+6. **Geração de previsões para 2026**
+7. **Exportação de arquivos para Looker Studio**
+
+     
+
+## 🤖 2. Modelagem Preditiva
+
+### 📌 Modelos utilizados:
+- **Random Forest Regressor**
+- **Gradient Boosting Regressor**
+- **Linear Regression**
+- **Decision Tree Regressor**
+
+### 📊 Avaliação:
+- Métrica principal: `R² (Coeficiente de Determinação)`
+- Melhor desempenho: **Decision Tree** (R² = 0.9763)
+
+### ⚙️ Features utilizadas:
+- `Ano`
+- `Pais_encoded`
+- `Produto_encoded`
+- `Peso_kg`
+- `Valor_por_kg`
+- `Valor_lag1`, `Valor_lag2`
+- `Crescimento_pct`
+
+
+
+## 📁 3. Dados Utilizados
+
+Os dados originais foram coletados de fonte oficial (ComexStat). Os arquivos CSV processados foram organizados na pasta `Dados/`.
+
+### Arquivos principais:
+- `V_EXPORTACAO_GERAL_2019-2024.csv` — Dados brutos
+- `comparacao_2024_2026.csv` — Dados para análise comparativa
+- `evolucao_temporal_completa.csv` — Evolução histórica + previsão
+- `crescimento_paises_2026.csv` — Ranking de países por crescimento percentual
+
+---
+
+## 📊 4. Visualização com Looker Studio
+
+Os arquivos CSV gerados foram utilizados para alimentar um **dashboard interativo**, hospedado no Looker Studio, com os seguintes painéis:
+
+- Evolução anual das exportações (2019–2024)
+- Previsão total de exportações para 2026
+- Top 10 países e produtos exportados
+- Comparação de valores por país entre 2024 e 2026
+- Crescimento percentual previsto por país
+
+Link do dashboard: [Clique aqui para acessar](https://lookerstudio.google.com/report/SEU-LINK-AQUI)
+
+
+
+## 💡 5. Ferramentas e Bibliotecas
+
+- Python 3.10+
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib / Seaborn
+- Looker Studio (Google Data Studio)
+
+---
+
+## 📌 6. Reprodutibilidade
+
+Para executar o projeto, recomenda-se:
+
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn
