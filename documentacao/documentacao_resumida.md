@@ -39,7 +39,7 @@ Foram aplicadas técnicas de **análise exploratória de dados (EDA)** e **regre
 ## 3. Conclusões
 
 - O valor total exportado entre 2019 e 2024 foi superior a US$ 1 trilhão.
-- Os principais países importadores foram China, EUA e Argentina.
+- Os principais países exportadores foram China, EUA e Argentina.
 - Os produtos mais exportados incluem commodities agropecuárias e minerais.
 - A previsão para 2026 indica um crescimento total de **+17,10%** em relação a 2024.
 - A análise permitiu identificar oportunidades estratégicas em produtos com maior valor agregado por quilograma e mercados com crescimento constante.
