@@ -22,6 +22,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+
 Você pode instalar tudo com:
 
 bash
@@ -47,13 +48,14 @@ dados_historicos_looker.csv
 Esses arquivos são utilizados para alimentar os dashboards do Looker Studio.
 
 🧪 Modelos de Machine Learning testados
+
 Random Forest Regressor
 
 Gradient Boosting Regressor
 
 Linear Regression
 
-Decision Tree Regressor
+Decision Tree
 
 O modelo com melhor desempenho foi o Decision Tree, com R² ≈ 0.9753.
 
@@ -61,4 +63,4 @@ O modelo com melhor desempenho foi o Decision Tree, com R² ≈ 0.9753.
 As previsões para 2026 e os principais insights do projeto estão disponíveis no dashboard interativo no Looker Studio.
 
 👤 Autor
-Este script foi desenvolvido por [Nayana Arce] como parte da formação em Análise de Dados da Escola Britânica de Artes Criativas e Tecnologia
+Este script foi desenvolvido por [Nayana Arce] como parte da formação em Análise de Dados da Escola Britânica de Artes Criativas e Tecnologia (EBAC)
