@@ -6,7 +6,7 @@ Este diretório contém o código Python utilizado para realizar a análise expl
 
 ## 📜 Arquivo principal
 
-- `projeto_analise_exploratoria_de_dados_com_machine_learning_analise_de_exportacao_com_previsoes_para_2026.ipynb`
+- `projeto_analise_exploratoria_de_dados_(EDA)_com_machine_learning_analise_de_exportacao_com_previsoes_para_2026.ipynb`
 
 Este script executa todas as etapas do projeto, desde a leitura e limpeza dos dados até a geração de previsões e exportação de arquivos para visualização no Looker Studio.
 
