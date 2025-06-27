@@ -21,7 +21,7 @@ Código Python com EDA, preparação de dados e previsão com ML
 Arquivos CSV utilizados e gerados para visualização no Looker Studio
 
 📁 Visualizacoes/
-Capturas de tela do dashboard e link em .txt
+Capturas de tela do dashboard e link em .md
 
 📁 Documentacao/
 Relatórios e textos finais do projeto em PDF (dissertação, insights, fontes)
@@ -41,7 +41,7 @@ Relatórios e textos finais do projeto em PDF (dissertação, insights, fontes)
 
 A pasta `Documentacao/` contém os seguintes arquivos:
 
-- `Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026.pdf` — Texto completo do projeto
+- `Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026.pdf` — Texto geral para o projeto
 - `Relatório de Insights — Visão Preditiva no Comércio Exterior Brasileiro: Desafios e Projeções Para 2026.pdf` — Análise interpretativa dos principais achados e recomendações
 - `Relatório de Fontes de Dados Públicos e Não Confidenciais.pdf` — Informações sobre origem, estrutura e qualidade dos dados
 - `documentacao_tecnica.md` — Detalhes técnicos do código e execução
@@ -56,7 +56,7 @@ A pasta `Documentacao/` contém os seguintes arquivos:
 - Desenvolver visualizações interativas para facilitar a tomada de decisão
 - Comunicar os achados de forma clara, objetiva e com base em dados
 
----
+
 
 ## 📬 Contato
 
